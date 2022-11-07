@@ -1,0 +1,407 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Manrope', sans-serif;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+.glava{
+min-height: 100vh;
+width: 100%;
+background-image: linear-gradient(rgba(228, 207, 207, 0.788),rgba(228, 207, 207, 0.788)),
+url(slike/pozadina.jpg);
+background-position: center;
+background-size: cover;
+position: relative;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    
+    
+    }
+span{
+    color: rgb(128, 189, 128);
+    font-weight: bold;
+}
+
+.projekt{
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-size: 28px;
+    
+}
+
+.tab{
+    display:flex;
+    justify-content: space-around;
+    width: 30%;
+   
+}
+
+.tab li {
+   list-style: none;
+}
+
+.tab a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    
+}
+
+
+.tab  li a::after{
+    
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color:rgb(91, 177, 88) ;
+    display: block;
+    margin: auto;
+    transition: 0.2s;
+}
+
+.tab  li a:hover::after{
+width: 100%;
+}
+
+.tekst{
+    width: 90%;
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.tekst h1{
+    
+        font-size: 30px;
+        font-weight: bold;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+    
+}
+
+.tekst p{
+    margin: 10px 0 40px;
+    font-size: 18px;
+}
+
+.sadrzaj{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+
+}
+
+.sadrzaj h1{
+    font-size: 24px;
+        font-weight: bold;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+}
+
+.sadrzaj p{
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+
+img{
+    height: 400px;
+    
+}
+
+
+img:hover 
+    {
+      opacity: 0.3;
+      filter: alpha(opacity=30);
+    }
+
+table{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-top: 40px;
+    
+}
+
+
+th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-radius: 5px;
+   
+}  
+    
+th{
+    background-color: rgba(178, 206, 206, 0.938) ;
+}
+
+.predstavnici {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.predstavnici h1{
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.predstavnici table{
+    padding-bottom: 100px;
+    
+}
+
+.predstavnici img{
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+sup{
+    font-size: 8px;
+}
+
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+    background-image: linear-gradient(rgba(228, 207, 207, 0.788),rgba(228, 207, 207, 0.788)),
+url(slike/pozadina.jpg);
+
+}
+.footer h2{
+    margin-top: 20px;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+
+
+
+.gumb{
+    display: inline-block;
+
+    color: rgb(0, 0, 0);
+    border: 3px solid rgb(36, 110, 40);
+    padding: 12px 34px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    position: relative;
+    cursor: pointer;
+    margin: 600px 0 40px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+.gumb:hover{
+    
+    transition: 0.3s;
+    background-color: rgb(36, 110, 40);
+    color: aliceblue;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.wrapper{
+    max-width: 500px;
+    width: 100%;
+    background-image: linear-gradient(rgba(228, 207, 207, 0.945),rgba(228, 207, 207, 0.945)), url(slike/figart.jpg);
+    margin: 20px auto;
+    padding: 30px;
+    box-shadow: 1px 1px 2px rgba(228, 207, 207, 0.788);
+}
+.wrapper2{
+    max-width: 500px;
+    width: 100%;
+    background-color: #f8f8f8;
+    margin: 20px auto;
+    padding: 30px;
+    box-shadow: 1px 1px 2px rgba(228, 207, 207, 0.788);
+}
+
+.wrapper .title{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.wrapper2 .title2{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.wrapper .form{
+    width: 100%;
+
+}
+.wrapper2 .form2{
+    width: 100%;
+
+}
+
+.wrapper .form .input_field{
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+.wrapper2 .form2 .input_field2{
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+.wrapper .form .input_field label{
+    width: 200px;
+    color: rgb(4, 54, 26);
+    margin-right: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.wrapper2 .form2 .input_field2 label{
+    width: 200px;
+    color: rgb(4, 54, 26);
+    margin-right: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.wrapper .form .input_field .input{
+    width: 100%;
+    outline: none;
+    border: 1px solid gray;
+    font-size: 15px;
+    padding: 8px 10px;
+    border-radius: 5px;
+   
+}
+.wrapper2 .form2 .input_field2 .input2{
+    width: 100%;
+    outline: none;
+    border: 1px solid gray;
+    font-size: 15px;
+    padding: 8px 10px;
+    border-radius: 5px;
+   
+}
+
+.wrapper .form .input_field  textarea{
+    width: 100%;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 4px;
+    resize: none;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+
+}
+.wrapper2 .form2 .input_field2  textarea{
+    width: 100%;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 4px;
+    resize: none;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+
+}
+.wrapper .form .input_field .input:focus{
+    border: 1px solid green;
+}
+
+.wrapper2 .form2 .input_field2 .input2:focus{
+    border: 1px solid green;
+}
+
+.wrapper .form .input_field .radio{
+    position: relative;
+    width: 10%;
+    
+
+}
+
+.wrapper2 .form2 .input_field2 .radio2{
+    position: relative;
+    width: 10%;
+    
+
+}
+.wrapper .form .input_field .checkbox{
+    width: 15px;
+    height: 15px;
+   margin: 10px;
+
+}
+.wrapper2 .form2 .input_field2 .checkbox2{
+    width: 15px;
+    height: 15px;
+   margin: 10px;
+
+}
+
+.wrapper .form .input_field .gumbbtn{
+   
+    width: 100%;
+    padding: 8px;
+    font-size: 15px;
+    border: 2px solid gray;
+    cursor: pointer;
+    border-radius: 3px;
+    outline: none;
+    letter-spacing: 2px;
+}
+.wrapper2 .form2 .input_field2 .gumbbtn2{
+   
+    width: 100%;
+    padding: 8px;
+    font-size: 15px;
+    border: 2px solid gray;
+    cursor: pointer;
+    border-radius: 3px;
+    outline: none;
+    letter-spacing: 2px;
+}
+
+.wrapper .form .input_field .gumbbtn:hover{
+    border: 2px solid gray;
+    transition: 0.3s;
+    background-color: gray;
+    color: aliceblue;
+}
+.wrapper2 .form2 .input_field2 .gumbbtn2:hover{
+    border: 2px solid gray;
+    transition: 0.3s;
+    background-color: gray;
+    color: aliceblue;
+}
